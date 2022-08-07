@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Taviraj:wght@200;300&display=swap');*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Taviraj', serif;
+}
+/*HOMEPAGE START*/
+.img-background-desktop{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left: 0;
+    position: fixed;
+    z-index: -1;
+}
+.navbar{
+    position:relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.navbar .nav-row {
+    border: 1px solid rgba(26, 25, 25, 0.219);
+    position: absolute;
+    width: 32pc;
+    left: 11pc;
+    background-color: #686a676e;
+    opacity: 0.6;
+}
+.navbar .list {
+    border: 0px black solid;
+    background-color: #686a676e;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    list-style: none;
+    margin: 31px 0pc;
+    height: 77px;
+    width: 46pc;
+    position: relative;
+    left: 312px;
+    opacity: 0.7;
+}
+.navbar .list li {
+    padding: 23px;
+    color: #ffffff75;
+    transition: .3s;
+    letter-spacing: -1px;
+}
+.navbar .list span {
+    color: #c3b59b;
+    margin-right: 9px;
+}
+.navbar .list a {
+    text-decoration: none;
+    color: #fff;
+}
+.navbar .list li:hover{
+    cursor: pointer;
+    border-bottom: 1px solid #fff;
+    z-index: 2;
+}
+.nav-block01 {
+    position: relative;
+    border: 0.01px #ffffff75 solid;
+    width: 113px;
+    right: -45pc;
+    top: -33px;
+}
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    color: #fff;
+    position: relative;
+}
+
+.left-colmn {
+    position: absolute;
+    left: 13pc;
+    top: 7pc;
+}
+.section h3 {
+    opacity: 0.4;
+    letter-spacing: 2px;
+}
+#space {
+    font-size: 8pc;
+    font-weight: 400;
+    margin: -9px -8px;
+    opacity: 0.9;
+    letter-spacing: 5px;
+}
+.section p {
+    opacity: 0.4;
+    font-size: 16px;
+    letter-spacing: -1px;
+}
+.right-colmn a{
+    text-decoration: none;
+    border: 1px transparent solid;
+    width: 200px;
+    height: 200px;
+    background-color: #f5deb3bf;
+    position: absolute;
+    justify-content: space-evenly;
+    left: 58pc;
+    top: 14pc;
+    color: #000000d6;
+    font-size: 34px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+}
+/*HOMEPAGE FINISH*/
+
+/*DESTINATION START*/
+.nav-block02 {
+    position: relative;
+    border: 0.01px #ffffff75 solid;
+    width: 10pc;
+    right: -52pc;
+    top: -34px;
+}
+.img-background-desktop{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left: 0;
+    position: fixed;
+    z-index: -1;
+}
+
+.section-01{
+    position: relative;
+}
+.section-01 .mars{
+    position: absolute;
+    top: 5pc;
+    left: 15pc;
+}
+.section-01 .mars img{
+    width: 380px;
+}
+.moon-toogle{
+    background: url('assets/destination/image-moon.png');
+}
+.description {
+    position: relative;
+}
+.description p  {
+    position: absolute;
+    left: 13pc;
+    top: 0pc;
+    font-size: 20px;
+    color: #ffffffcf;
+    letter-spacing: 5px;
+}
+
+.descriptionspan{
+    color: #ffffff6b;
+    margin-right: 12px;
+}
+
+.description p span{
+    margin-right: 15px;
+    color: #ffffff75;
+}
+.continer-destinational  {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 10pc;
+    color: #ffffffa8;
+}
+.continer-destinational .nav{
+    display: flex;
+}
+.continer-destinational .nav ul {
+    margin-top: 67px;
+    display: flex;
+    list-style: none;
+    font-size: 19px;
+    font-weight: 100;
+}
+.continer-destinational .nav ul li{
+    text-decoration: none;
+    margin-right: 30px;
+    transition: .4s;
+}
+.continer-destinational .nav ul li:hover{
+    cursor: pointer;
+    border-bottom: 2px #ffffff4d solid;
+    transform: translateY(1px);
+}
+.continer-destinational .nav ul li:last-child{
+    margin-right: 100px;
+}
+.section-destination h1{
+    font-size: 94px;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+.section-destination p{
+    font-weight: 100;
+    color: #ffffff4f;
+
+}
+.block{
+    border: 1px #ffffff1f solid;
+    width: 25pc;
+    margin-bottom: 15px;
+    margin-top: 21px;
+} 
+.section-destination .row{
+    display: flex;
+    font-weight: 100;
+}
+.section-destination .colmn-1{
+    margin-right: 96px;
+    font-weight: 100;
+}
+.section-destination .colmn-2{
+    font-weight: 100;
+}
+.section-destination h2{
+    font-weight: 300;
+    font-size:31px;
+}
+#block{
+    border: 1px #ffffff4f solid;
+    position: absolute;
+    width: 62px;
+    top: 15pc;
+    left: 54pc;
+    color: #ffff;
+}
+/*CREW START*/
+.nav-block03 {
+    position: relative;
+    border: 0.01px #ffffff75 solid;
+    width: 8pc;
+    right: -61pc;
+    top: -34px;
+}
+.right-colmn-crew{
+    position: relative;
+}
+.right-colmn-crew img{
+    position: relative;
+    right: -19pc;
+    max-width: 34pc;
+    max-height: 31pc;
+    height: 100%;
+    width: 100%;
+    bottom: -18px;
+}
+.section .left-colmn h2{
+    font-weight: 100;
+    color: #ffffff4f;
+    font-size: 34px;
+}
+.section .left-colmn h1{
+    font-size: 50px;
+    font-weight: 400;
+    margin: 21px -8px;
+    opacity: 0.9;
+    letter-spacing: 5px;
+}
+/*CREW FINISH*/
+/*TECHNOLOGY START*/
+.nav-block04 {
+    position: relative;
+    border: 0.01px #ffffff75 solid;
+    width: 9pc;
+    right: -70pc;
+    top: -34px;
+}
+.right-colmn-tech img {
+    position: relative;
+    right: -25em;
+    max-width: 26pc;
+    max-height: 27pc;
+    height: 100%;
+    width: 100%;
+    bottom: -20px;
+    margin-left: 22px;
+}
+.left-colmn-tech{
+    position: absolute;
+    left: 20pc;
+    top: 7pc;
+}
+.left-colmn-tech h2{
+    font-weight: 100;
+    color: #ffffff4d;
+    font-size: 34px;
+    letter-spacing: -3px;
+}
+.left-colmn-tech h1 {
+    font-size: 54px;
+    font-weight: 200;
+    margin: 2px -8px;
+    opacity: 0.9;
+    letter-spacing: -1px;
+}
+#number-tech {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    left: -18pc;
+    font-size: 56px;
+    top: 3pc;
+    font-weight: 100;
+}
+#number-tech span {
+    border: 1px #fff solid;
+    border-radius: 50%;
+    width: 92px;
+    text-align: center;
+    height: 94px;
+    margin: 1pc;
+    transition: .3s;
+}
+#number-tech span:hover{
+    background-color:#fff;
+    color:black;
+    cursor: pointer;
+}
+
